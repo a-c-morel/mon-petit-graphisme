@@ -1,0 +1,27 @@
+*, *:before, *:after{box-sizing:border-box}
+html{font-size:18px}
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap');
+body{padding:0; margin:0; font-family:'Roboto', sans-serif;}
+a{text-decoration:none; color:inherit}
+h1{color:#ffff}
+h2{color:gray; font-size:1.3rem; width:70vw; text-align: center; margin-bottom:2rem}
+section{display:flex; flex-direction:column; justify-content:space-around; align-items:center}
+.firstNav{display:flex; justify-content:space-between; align-items:center; flex-wrap:wrap}
+.home:hover{color:gray}
+.contact:hover{color:gray}
+.flexUl{margin-left:auto; display:flex; list-style:none; justify-content:space-between; width:200px; margin-right:1rem}
+.headerBG{background-image:url(images/backgroung_image.jpg); background-size: cover}
+.headerFlex{display:flex; flex-direction:column; justify-content:center; align-items:center; padding:200px}
+.smallLogo{width:200px; height:auto}
+.flexCards{display:flex; width:60vw}
+.card{display:flex; flex-direction:column; justify-content:center; align-items:center; width:300px; margin-right:2rem}
+.cardInfo{text-align:center}
+.testimony{width:40vw; color:gray; display: flex; flex-direction: column; justify-content:center; align-items:center; margin-top:2rem}
+.testimonyContent{margin-bottom:0}
+.testimonyAutor{font-size:.8rem}
+
+footer{background-color:#5f0eaa; color:white; padding-top:1rem; display:flex; flex-direction:column; justify-content:center; align-items:center}
+.social{display:flex; justify-content:space-around; align-items:center; width:20vw}
+.socialLogo{color:white; font-size:1.5rem}
+.flexFooterNav{display:flex; justify-content:space-around; align-items:center; flex-wrap:wrap; width:100%; margin-top:2rem}
+.contactInfo{line-height:.5rem}
